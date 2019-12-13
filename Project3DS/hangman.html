@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman!</title>
+    <script type="text/javascript" src="hangman.js"></script>
+	<link rel="stylesheet" href="hangman.css"></link>
+
+</head>
+
+<body id="TheGame" onload="bodyOnloadHandler();">
+
+    <table class="GameBoard">
+	   <tr>
+	      <th id="GamePrompt">Guess the word:</th>
+		  <th class="WordDefinition">
+		     <span id="Definition"></span>
+		  </th>
+	   <tr>
+	      <td>
+            <div class="gameElement">
+                <h3>Wins</h3>
+                <h2 id="totalWins"></h2>
+                <h3>Current Word</h3>
+                <h2 id="currentWord"></h2>
+                <h3>Tries Remaining</h3>
+                <h2 id="remainingGuesses"></h2>
+                <h3>Letters Used</h3>
+                <h2 id="guessedLetters"></h2>
+            </div>
+		  </td>
+		  <td>
+            <img class="GameImage" id="HangmanImage" src="Images/hangman00.jpg" alt="" />
+		  </td>
+	   </tr>
+	</table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

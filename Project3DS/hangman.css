@@ -1,0 +1,95 @@
+body {
+    padding-top: 20px;
+    font-family: Courier New, Courier, monospace;
+    color: green;
+    background-size: cover;
+}
+
+table {
+	width: 1000px;
+}
+
+td {
+	table-layout: fixed;
+}
+
+
+.GameBoard { 
+    text-align: center;
+    border: solid;	
+	min-width: 1000px;
+	max-width: 1000px;
+}
+
+.GameImage { 
+    text-align: center;
+    border: hidden;	
+}
+
+#GamePrompt {
+	font-style: normal;
+	font-size: 24px;
+	text-align: right;
+	color: black;
+}
+
+
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 5px;
+    
+	max-width: 600px;
+	min-width: 600px;
+
+}
+
+h3 {
+	background-color: white;
+}
+
+h2 {
+	background-color: yellow;
+	color: red;
+	min-height: 30px;
+}
+
+#title-image, #gameover-image, #youwin-image{ 
+    display: block;
+    margin: 0 auto;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#Definition, #GamePrompt {
+	min-height: 100px;
+}
+
+#Definition {
+	font-size: 20px;
+	color: red;
+}
+
+#GamePrompt {
+	/* background-color: yellow; */
+	font-size: 50px;
+	color: green;
+	text-align: right;
+}
+
+
+
+
+.row {
+	max-width: 400px;
+} 
+
+.gameplay-column {
+    /* padding-top: 20px; */
+    /* border: 3px dashed #fff; */
+    text-align: center;
+    /* margin-top: 10px; */
+    /* min-height: 200px; */
+    background-color: rgba(255, 255, 255, .3);
+}
